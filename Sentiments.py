@@ -1,4 +1,5 @@
 import streamlit as st
+import sklearn
 import joblib
 model = joblib.load('Tweets')
 st.title('Tweets Classifier')
