@@ -1,7 +1,7 @@
 import streamlit as st
 import sklearn
 import joblib
-model = joblib.load('Tweets')
+model = joblib.load('Tweets1')
 st.title('Tweets Classifier')
 ip = st.text_input('Enter your message')
 op = model.predict([ip])
